@@ -13,4 +13,9 @@ return {
   },
 
   colorscheme = "catppuccin",
+
+  luasnip = {
+    region_check_events = "CursorHold,InsertLeave",
+    delete_check_events = "TextChanged,InsertEnter",
+  }
 }
